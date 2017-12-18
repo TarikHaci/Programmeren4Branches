@@ -9,7 +9,7 @@ var mijnObject = {
 routes.get('/hello', function(req, res){
 	res.contentType('application/json');
 	res.status(200);
-	res.json({ 'tekst' : 'HEEEEEEEEY NIEUWE UPDATEEEE!'});
+	res.json({ 'tekst' : 'HEEEEEEEEY NIEUWE UPDATEEEEA!'});
 });
 
 routes.post('/hello', function(req, res){
