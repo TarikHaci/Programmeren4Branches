@@ -18,7 +18,7 @@ routes.post('/hello', function(req, res){
 	console.dir(body);
 
 	res.status(200);
-	res.json(mijnObject);
+	res.json({ 'tekst' : 'HEEEEEEEEY NIEUWE UPDATEEEE!'});
 });
 
 routes.delete('/hello', function(req, res){
