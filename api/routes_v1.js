@@ -9,16 +9,15 @@ var mijnObject = {
 routes.get('/hello', function(req, res){
 	res.contentType('application/json');
 	res.status(200);
-	res.json(mijnObject);
+	res.json({ 'tekst' : 'HEEEEEEEEY NIEUWE UPDATEEEE!'});
 });
 
 routes.post('/hello', function(req, res){
 	var body = req.body;
 
 	console.dir(body);
-
 	res.status(200);
-	res.json({ 'tekst' : 'HEEEEEEEEY NIEUWE UPDATEEEE!'});
+	res.json(mijnObject);
 });
 
 routes.delete('/hello', function(req, res){
