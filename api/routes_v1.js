@@ -40,7 +40,7 @@ routes.put('/hello', function(req, res){
 
 routes.get('/goodbye', function(req, res){
 	res.status(200);
-	res.json({ 'tekst' : 'Goodbye get!'});
+	res.json({ 'tekst' : 'Goodbye Fer!'});
 });
 
 routes.get('/hello/error', function(req, res, next){
